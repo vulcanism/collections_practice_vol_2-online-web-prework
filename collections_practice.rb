@@ -5,3 +5,7 @@ end
 def contain_a(array)
   array.select {|i| i.include?("a")}
 end
+
+def first_wa(array)
+  
+end
