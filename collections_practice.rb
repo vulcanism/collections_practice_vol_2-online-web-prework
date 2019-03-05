@@ -21,7 +21,7 @@ end
 def merge_data (keys, data)
   result = []
   keys.each_with_index do |x, i|
-  result << keys[i].merge(data[0][data1[i].values[0]])
+  result << keys[i].merge(data[0][keys[i].values[0]])
 end
 result
 end
