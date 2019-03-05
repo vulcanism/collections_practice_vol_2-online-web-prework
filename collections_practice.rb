@@ -10,6 +10,6 @@ def first_wa(array)
   array.find {|i| i[0..1] == "wa"}
 end
 
-def remove_non_strings
+def remove_non_strings(array)
   array.delete_if {|obj| !(obj.is_a? String)}
 end
