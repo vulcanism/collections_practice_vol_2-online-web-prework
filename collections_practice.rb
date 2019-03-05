@@ -32,3 +32,6 @@ def find_cool(array)
   result
 end
 
+def organize_schools(schools)
+  
+end
