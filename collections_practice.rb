@@ -15,5 +15,5 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  
+  names_array = array.uniq.collect {|person| {:name => person[:name], :count => array.count(person)}}
 end
