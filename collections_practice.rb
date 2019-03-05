@@ -33,5 +33,7 @@ def find_cool(array)
 end
 
 def organize_schools(schools)
-  schools.sort
+  locations = {}
+  schools.collect {|k,v| locations [v[:location]] = []}
+  locations.each {|k,v| schools.each {|k1,v1| if k == v1[:location] then v << k1 end }}
 end
