@@ -17,3 +17,7 @@ end
 def count_elements(array)
   names_array = array.uniq.collect {|person| {:name => person[:name], :count => array.count(person)}}
 end
+
+def merge_data (keys, data)
+  
+end
